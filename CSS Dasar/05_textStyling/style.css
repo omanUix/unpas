@@ -1,0 +1,41 @@
+h1 {
+    font-size: 100px;
+    /* Color */
+    /* nama */
+    color: aqua;
+    /* Hexadecimal */
+    color: #7fffd4;
+    /* RGB */
+    color: rgb(0, 255, 255);
+
+    /* Text Decoration */
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+
+    /*  */
+}
+
+p {
+    /* Text Align */
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+
+    /* Text Indent */
+    text-indent: 100px;
+
+    /* Text Transform */
+    text-transform: none;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+
+    /* Letter Spacing */
+    letter-spacing: 2px;
+
+    /* Word Spacing */
+    word-spacing: 5px;
+}

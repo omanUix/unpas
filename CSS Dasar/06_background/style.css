@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+    background-image: url(./logo-unpam2.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
