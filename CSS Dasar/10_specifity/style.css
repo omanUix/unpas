@@ -1,0 +1,15 @@
+#p1 {
+    color: green;
+}
+
+p {
+    color: red;
+}
+
+ul#sarapan li /*cara bacanya: CSS tolong carikan saya li yang ada di dalam ul tetapi yang memiliki id sarapan*/{
+    color: green;
+}
+
+ul#sarapan li.favorit {
+    color: blue;
+}
