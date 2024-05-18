@@ -1,0 +1,53 @@
+// .main {
+//     background-color: lightcoral;
+
+//     .main-heading {
+//         font-size: 2em;
+//     }
+
+//     .main-paragraph {
+//         font-size: 1em;
+//     }
+// }
+
+// .main,
+// footer {
+//    h1,
+//    p {
+//       letter-spacing: 1px;
+//    }
+// }
+
+.main {
+   .container & {
+      background-color: orangered;
+   }
+
+   .main-heading {
+      font-size: 2em;
+   }
+
+   &:hover {
+      background-color: blue;
+   }
+}
+
+// .main {
+//     & &-heading {
+//         font-size: 2em;
+//     }
+
+//     & &-paragraph {
+//         font-size: 1em;
+//     }
+// }
+
+// .footer {
+//     & &-heading {
+//         font-size: 2em;
+//     }
+
+//     & &-paragraph {
+//         font-size: 1em;
+//     }
+// }
