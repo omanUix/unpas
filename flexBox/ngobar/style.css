@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    padding-bottom: 1000px;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(7, 91, 160);
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    /* padding: 20px 0px; */
+}
+
+nav .logo{
+    font-family: 'Pacifico', cursive;
+    color: rgb(226, 226, 255);
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+nav ul{
+    display: flex;
+    width: 40%;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(181, 181, 247);
+    font-size: 0.8em;
+
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* Hamburger Menu */
+.toggle-menu {
+    display: none;
+    height: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-menu span{
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color:  rgb(226, 226, 255);
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.toggle-menu input {
+    position: absolute;
+    height: 28px;
+    width: 40px;
+    opacity: 0;
+    left: -6px;
+    top: -3px;
+    z-index: 2;
+}
+
+/* Hamburger Animation */
+
+.toggle-menu span:nth-child(2){
+    transform-origin: 0 0;
+}
+
+.toggle-menu span:nth-child(4){
+    transform-origin: 0 100%;
+}
+
+.toggle-menu input:checked ~ span:nth-child(2){
+    background-color: white;
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.toggle-menu input:checked ~ span:nth-child(3){
+    opacity: 0;
+    transform: scale(0);
+}
+
+.toggle-menu input:checked ~ span:nth-child(4){
+    background-color: white;
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+
+
+/* Responsive Breakpoint */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px) {
+    .toggle-menu {
+        display: flex;
+    }
+
+    nav ul {
+        position: absolute;
+        text-align: center;
+        right: 0;
+        top: 0;
+        width: 80%;
+        height: 100vh;
+        background-color: rgb(5, 56, 98);
+        flex-direction: column;
+        justify-content: space-evenly;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+

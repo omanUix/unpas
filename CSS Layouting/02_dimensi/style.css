@@ -1,0 +1,18 @@
+.satu {
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+}
+
+.dua {
+    width: 120%;
+    background-color: aqua;
+}
+
+.main {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    overflow: visible;
+    margin-top: 10px;
+}

@@ -1,0 +1,281 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.979
+hello hello friends everyone is back again
+
+2
+00:00:01.979 --> 00:00:04.529
+on the playlist learn HTML5 with me
+
+3
+00:00:04.529 --> 00:00:06.839
+sandhika Galih in this blog at
+
+4
+00:00:06.839 --> 00:00:09.710
+In the 4th episode we will discuss about
+
+5
+00:00:09.710 --> 00:00:12.599
+audio and video yes friends so
+
+6
+00:00:12.599 --> 00:00:15.120
+these elements or these technologies constitute
+
+7
+00:00:15.120 --> 00:00:18.270
+new technologies in HTML5 we will
+
+8
+00:00:18.270 --> 00:00:21.150
+Let's discuss them one by one. starting with tags
+
+9
+00:00:21.150 --> 00:00:24.900
+audio so Tego This is a text
+
+10
+00:00:24.900 --> 00:00:27.570
+or elements that represent sound
+
+11
+00:00:27.570 --> 00:00:30.869
+or audio stream to create a
+
+12
+00:00:30.869 --> 00:00:32.910
+This audio element is quite easy
+
+13
+00:00:32.910 --> 00:00:34.860
+our friends just call
+
+14
+00:00:34.860 --> 00:00:37.410
+c or write the text then
+
+15
+00:00:37.410 --> 00:00:39.930
+Write down the attributes that must be present. namely
+
+16
+00:00:39.930 --> 00:00:42.960
+src or source is where we store it
+
+17
+00:00:42.960 --> 00:00:45.960
+the audio file then we can add
+
+18
+00:00:45.960 --> 00:00:48.750
+controls attribute to add
+
+19
+00:00:48.750 --> 00:00:53.430
+controls for play pause or scroll
+
+20
+00:00:53.430 --> 00:00:56.789
+yes or make us shift the position
+
+21
+00:00:56.789 --> 00:00:58.890
+the audio and we can also adjust it
+
+22
+00:00:58.890 --> 00:01:01.329
+volume in that uses audio captions
+
+23
+00:01:01.329 --> 00:01:03.910
+like this is enough or if
+
+24
+00:01:03.910 --> 00:01:05.799
+for example. we want to be more complex
+
+25
+00:01:05.799 --> 00:01:08.560
+you can insert it into figure text like
+
+26
+00:01:08.560 --> 00:01:09.670
+which we discussed in the video
+
+27
+00:01:09.670 --> 00:01:11.979
+Previously we could also insert
+
+28
+00:01:11.979 --> 00:01:15.310
+Other multimedia elements are images viz
+
+29
+00:01:15.310 --> 00:01:19.000
+audio yes David caption Then there is audio
+
+30
+00:01:19.000 --> 00:01:21.940
+These and the audio tags are different
+
+31
+00:01:21.940 --> 00:01:24.220
+with IMG. yes. if yikan doesn't exist
+
+32
+00:01:24.220 --> 00:01:27.070
+the lid with audio has a closing tag
+
+33
+00:01:27.070 --> 00:01:29.170
+Well. in the heart of the audio we can
+
+34
+00:01:29.170 --> 00:01:32.530
+write text when this audio or
+
+35
+00:01:32.530 --> 00:01:34.960
+This tag is not supported by the browser
+
+36
+00:01:34.960 --> 00:01:36.580
+So if the browser doesn't support it
+
+37
+00:01:36.580 --> 00:01:39.039
+The audio that will appear is written
+
+38
+00:01:39.039 --> 00:01:41.920
+The browser doesn't support you
+
+39
+00:01:41.920 --> 00:01:43.030
+guys. we'll try it later
+
+40
+00:01:43.030 --> 00:01:45.610
+practice writing this audio text
+
+41
+00:01:45.610 --> 00:01:47.590
+Now let's see what the attributes are
+
+42
+00:01:47.590 --> 00:01:50.440
+this is all we can use
+
+43
+00:01:50.440 --> 00:01:52.659
+in this audio text the first of course
+
+44
+00:01:52.659 --> 00:01:54.640
+we just need this source
+
+45
+00:01:54.640 --> 00:01:56.740
+The second mandatory attribute is that we can
+
+46
+00:01:56.740 --> 00:01:59.080
+provide controls so that users can
+
+47
+00:01:59.080 --> 00:02:02.030
+controlling Saudi Onya using
+
+48
+00:02:02.030 --> 00:02:04.039
+the default controller. Well. for example
+
+49
+00:02:04.039 --> 00:02:06.170
+we won't use that control later
+
+50
+00:02:06.170 --> 00:02:09.258
+Maudio won't function
+
+51
+00:02:09.258 --> 00:02:11.410
+or controlled using javascript
+
+52
+00:02:11.410 --> 00:02:14.209
+next there is this preload to create
+
+53
+00:02:14.209 --> 00:02:17.180
+The audio file is loaded first
+
+54
+00:02:17.180 --> 00:02:19.910
+run because the default has audio
+
+55
+00:02:19.910 --> 00:02:22.430
+it is loaded when we press the button
+
+56
+00:02:22.430 --> 00:02:25.819
+next play there is a topley out for
+
+57
+00:02:25.819 --> 00:02:28.459
+run audio automatically there
+
+58
+00:02:28.459 --> 00:02:30.980
+Loop to repeat the audio when
+
+59
+00:02:30.980 --> 00:02:33.890
+it's reached the end. okay? So if not
+
+60
+00:02:33.890 --> 00:02:36.470
+use it. forget it. just stop at one
+
+61
+00:02:36.470 --> 00:02:38.780
+times but if you use Loop later
+
+62
+00:02:38.780 --> 00:02:40.940
+the audio keeps playing. the last one
+
+63
+00:02:40.940 --> 00:02:44.150
+Adam n is this for making audio?
+
+64
+00:02:44.150 --> 00:02:46.069
+there's sound yeah So this is for
+
+65
+00:02:46.069 --> 00:02:48.140
+The following attributes are several
+
+66
+00:02:48.140 --> 00:02:50.540
+note for this audio heart
+
+67
+00:02:50.540 --> 00:02:52.190
+first clear Was used for
+
+68
+00:02:52.190 --> 00:02:54.590
+run audio files of which there are several
+
+69
+00:02:54.590 --> 00:02:56.780
+we can use the adion file
+
+70
+00:02:56.780 --> 00:02:59.180
+first

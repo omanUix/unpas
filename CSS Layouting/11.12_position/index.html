@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Position</title>
+      <style>
+        body {
+            height: 2000px;
+        }
+        div {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+        }
+
+        .container{
+            width: 600px;
+            height: 650px;
+            border: 5px solid rgb(5, 155, 255);
+            position: relative;
+        }
+        .kotak1 {
+            background-color: lightgreen;
+
+        }
+
+        .kotak2 {
+            background-color: violet;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        .kotak3 {
+            width: 100%;
+            height: 100px;
+            background-color: gold;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+      </style>
+   </head>
+   <body>
+    <div class="container">
+        <div class="kotak1"></div>
+        <div class="kotak2"></div>
+        <div class="kotak3"></div>
+    </div>
+
+   </body>
+</html>
